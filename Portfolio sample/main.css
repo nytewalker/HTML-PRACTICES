@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: circular;
+}
+
+@font-face{
+    src: url(CircularSpotifyTxT-Med.ttf);
+    font-family: circular;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #7d2ae8;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+    transition: width .4s ease-in-out;
+}
+
+.wrapper:hover{
+    width: 500px;
+}
+
+
+input{
+    width: 100%;
+    height: 100%;
+    color: #7d2ae8;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+div a svg{
+    width: 30px;
+    height: 29px;
+    margin-top: 5px;
+    fill: #7d2ae8;
+    cursor: pointer;
+}
